@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cuisine Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">La Cuisine</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Welcome to La Cuisine</h1>
+        <p>Experience the finest French cuisine in town</p>
+        <button class="cta-button">Make a Reservation</button>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-categories">
+            <div class="menu-category">
+                <h3>Starters</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4>French Onion Soup</h4>
+                        <p>Classic soup with caramelized onions and melted cheese</p>
+                        <span class="price">$12</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Escargot</h4>
+                        <p>Snails in garlic butter sauce</p>
+                        <span class="price">$18</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-category">
+                <h3>Main Course</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4>Coq au Vin</h4>
+                        <p>Braised chicken in red wine sauce</p>
+                        <span class="price">$28</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Beef Bourguignon</h4>
+                        <p>Slow-cooked beef in red wine sauce</p>
+                        <span class="price">$32</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4>Crème Brûlée</h4>
+                        <p>Classic French vanilla custard</p>
+                        <span class="price">$10</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Macarons</h4>
+                        <p>Assorted French macarons</p>
+                        <span class="price">$8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>La Cuisine brings the authentic flavors of France to your table. Our chef, trained in Paris, creates exquisite dishes using the finest ingredients.</p>
+                <p>We pride ourselves on providing an unforgettable dining experience in an elegant atmosphere.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/400x300" alt="Restaurant Interior">
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="date" required>
+            <input type="time" required>
+            <select required>
+                <option value="">Number of Guests</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5+">5+ People</option>
+            </select>
+            <textarea placeholder="Special Requests"></textarea>
+            <button type="submit">Reserve Table</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 La Cuisine Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
